@@ -23,7 +23,7 @@ public class login extends JFrame {
                 String password = new String(passField.getPassword());
 
                 // Simple check (You can change "admin" to whatever you like)
-                if (username.equals("Mibenstev") && password.equals("msv1234")) {
+                if (username.equals("admin") && password.equals("1234")) {
                     JOptionPane.showMessageDialog(null, "Login Successful!");
 
                     // Open the payroll window
